@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "psWKpvlQAt6VED+Lr8w4kXlDZ9J3NkCRxK+el/GAnew=",
+  "Source": "ITIGRPC.Server",
+  "BasePath": "_content/ITIGRPC.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

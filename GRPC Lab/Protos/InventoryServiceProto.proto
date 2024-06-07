@@ -1,0 +1,43 @@
+syntax = "proto3";
+
+option csharp_namespace = "ITIGRPC.Protos";
+import "google/protobuf/timestamp.proto";
+import "google/protobuf/empty.proto";
+
+service InventoryServiceProto{
+	rpc GetProductById(Id) returns(IsExisted);
+	rpc AddProduct(Product) returns(Product);
+	rpc UpdateProduct(Product) returns(Product);
+	rpc GetAll(google.protobuf.Empty) returns(Products);
+	rpc AddBulkProducts(stream Product) returns (productsNumber);
+	rpc GetProductReport(google.protobuf.Empty) returns (stream Product);
+}
+
+message Id{
+	int32 Id=1;
+}
+
+message Product{
+	int32 Id=1;
+	string name=2;
+	double price =3;
+	int32 quantity=4;
+	google.protobuf.Timestamp expiryDate=5;
+	ProductCategory category=6;
+}
+
+message IsExisted{
+	bool IsExisted=1;
+}
+message Products{
+	repeated  Product products=1;
+}
+
+enum ProductCategory{
+	Clothes=0;
+	Electronics=1;
+}
+ 
+message productsNumber{
+	int32 Count = 1;
+}

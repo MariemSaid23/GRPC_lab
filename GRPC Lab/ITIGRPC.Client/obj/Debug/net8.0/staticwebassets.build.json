@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "PrMQUa+ok/ThzaU15XTipMKtZrKQ6yYDr+v3gtYjFCY=",
+  "Source": "ITIGRPC.Client",
+  "BasePath": "_content/ITIGRPC.Client",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "D:\\ITI\\GRPC\\Day 1\\Lab\\ITIGRPC.Product\\ITIGRPC.Server\\ITIGRPC.Server.csproj",
+      "Version": 2,
+      "Source": "ITIGRPC.Server",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

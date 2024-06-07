@@ -1,0 +1,4 @@
+obj\Debug\net8.0/InventoryServiceProto.cs \
+obj\Debug\net8.0/InventoryServiceProtoGrpc.cs: C:/Users/Toshiba C50t1932/.nuget/packages/grpc.tools/2.63.0/build/native/include/google/protobuf/timestamp.proto\
+ C:/Users/Toshiba C50t1932/.nuget/packages/grpc.tools/2.63.0/build/native/include/google/protobuf/empty.proto\
+ ../Protos/InventoryServiceProto.proto
